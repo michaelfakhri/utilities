@@ -1,6 +1,6 @@
 {
   "name": "webrtc-utilities",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "author": "The WebRTC project authors (https://www.webrtc.org/)",
   "description": "WebRTC test framework utilities.",
   "license": "BSD-3-Clause",
@@ -8,13 +8,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/webrtc/utilities.git"
-  },
-  "dependencies": {
-    "chromedriver": "^2.16.0",
-    "selenium-webdriver": "^2.48.0",
-    "tape": "^4.0.0",
-    "testling": "^1.7.1",
-    "travis-multirunner": "^3.0.0"
   },
   "bin": {
     "start-tests": "./src/testrunner/start-tests.sh"
@@ -29,6 +22,9 @@
     "grunt-eslint": "^17.2.0",
     "grunt-githooks": "^0.3.1",
     "tape": "^4.0.0",
-    "webrtc-adapter-test": ">0.2.7"
+    "chromedriver": "^2.16.0",
+    "selenium-webdriver": "^2.48.0",
+    "tape": "^4.0.0",
+    "travis-multirunner": "^3.0.0"
    }
 }
