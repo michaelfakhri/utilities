@@ -10,10 +10,10 @@
     "url": "https://github.com/webrtc/utilities.git"
   },
   "dependencies": {
-    "chromedriver": "^2.16.0",
-    "selenium-webdriver": "^2.48.0",
-    "tape": "^4.0.0",
-    "travis-multirunner": "^3.0.0"
+    "chromedriver": "latest",
+    "selenium-webdriver": "latest",
+    "tape": "latest",
+    "travis-multirunner": "latest"
   },
   "bin": {
     "start-tests": "./src/testrunner/start-tests.sh"
@@ -26,10 +26,10 @@
     "grunt-cli": ">=0.1.9",
     "grunt-eslint": "^17.2.0",
     "grunt-githooks": "^0.3.1",
-    "chromedriver": "^2.16.0",
+    "chromedriver": "latest",
     "selenium-webdriver": "latest",
-    "tape": "^4.0.0",
-    "travis-multirunner": "^3.0.0",
+    "tape": "latest",
+    "travis-multirunner": "latest",
     "webrtc-adapter": "^2.0.0"
    }
 }
